@@ -1,0 +1,26 @@
+.contenedor{
+    position: relative;
+    display: block;
+    text-align: center;
+    justify-content: center;
+}
+.contenedor img{
+    width: 30%;
+    opacity: 0.5;
+}
+.texto-encima{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 56px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-shadow: 6px 6px 10px #e6e3e3;
+    
+}
